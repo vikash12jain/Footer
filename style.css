@@ -1,0 +1,110 @@
+body {
+    background: #f8f9fb;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+footer {
+    position: relative;
+    top: 9px;
+}
+
+div section {
+    min-height: 36.8vh;
+}
+
+article {
+    background-color: purple;
+    margin: 0 0 0 0;
+    padding: 20px 0px 20px 0;
+    position: relative;
+    top: 65px;
+    width: 96vw;
+    left: 10px;
+    border-radius: 8px;
+    z-index: 101;
+}
+
+article>h2 {
+    color: #f9f9f9c3;
+    display: inline-flex;
+    position: relative;
+    left: 40px;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+article span {
+    margin: 0 0 0 70vw;
+    padding: 10px 20px 10px 20px;
+    border-radius: 42px;
+    display: inline-flex;
+    justify-content: center;
+    background: #0a1535;
+    color: #f9f9f9d8;
+}
+span:hover{
+color: purple;
+cursor: pointer;
+}
+
+div.halogram {
+    background: #0a1535;
+    color: rgba(128, 128, 128, 0.649);
+    padding: 0 1px 0 10px;
+    width: 99.8vw;
+    position: relative;
+    right: 8px;
+    box-sizing: border-box;
+
+}
+
+.halogram svg {
+    position: relative;
+    z-index: 1000;
+    top: 110px;
+    left: 18px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.halogram h3 {
+    color: #f9f9f9;
+    position: relative;
+    top: 45px;
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 29px;
+    margin-bottom: 35px;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0 50px 0 0;
+    font-size: 15px;
+}
+
+ul li a {
+    margin: 5px;
+    margin-left: 0px;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9bf;
+    font-size: 0.95em;
+    font-weight: 100;
+}
+
+foot {
+    display: block;
+    position: relative;
+    right: 8px;
+    padding: 12px 0px 12px 55px;
+    border: 2px solid #0a1535;
+    border-top: 2px solid gray;
+}
